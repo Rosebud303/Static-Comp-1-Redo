@@ -1,31 +1,194 @@
 * {
   font-family: "Raleway", sans-serif;
   margin: 0;
+  box-sizing: border-box;
 }
 
 nav {
-  background-color: gray;
+  background-color: #404041;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-username {
+  font-size: 20px;
+  color: #c2d6d6;
+}
+
+.fas {
+  color: #4dd2ff;
+}
+
+.admin-logo {
+  padding: 12px;
+}
+
+.nav-icon {
+  color: #a7905c;
+  float: right;
+  margin-top: 20px;
+}
+
+.fab {
+  color: #279c3b;
+}
+
+.nav-links {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 15px;
+  padding: 10px;
+  padding-bottom: 14px;
+  font-size: 18px;
+}
+
+.top-links {
+  padding-left: 25px;
+  color: #c2d6d6;
+}
+
+.svg1 {
+  color: #4dd2ff;
+}
+
+.nav-icon {
+  font-size: 40px;
 }
 
 main {
-  background-color: red;
+  background-color: #c2d6d6;
+  height: 100vh;
 }
 
 h2 {
   padding: 10px;
+  color: cadetblue;
 }
 
-.card-area {
-  width: 100%;
-  justify-content: space-around;
-  align-items: flex-start;
+.cards-area {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .card-structure {
   display: inline-block;
-  background-color: white;
-  padding: 10px;
-  margin: 10px;
-  width: 21%;
+  background-color: #5ca7a7;
+  padding: 2px;
+  margin: 9px;
+  width: 320px;
   height: 350px;
+  box-shadow: 4px 4px 10px gray;
+}
+
+.card-image {
+  display: flex;
+  justify-content: space-between;
+  background-color: #5ca7a7;
+  height: 35%;
+  color: white;
+}
+
+.view-info {
+  padding: 13px;
+  font-size: 15px;
+}
+
+.view-counter {
+  text-align: center;
+  font-size: 30px;
+}
+
+.card-image-background {
+  font-size: 50px;
+  padding: 10px;
+  color: white;
+}
+
+.card-text-info {
+  background-color: #fcfffebf;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.recipient-name-text {
+  font-size: 22px;
+}
+
+a {
+  height: 35px;
+  background: gainsboro;
+  color: #964d65;
+  display: flex;
+  align-items: center;
+}
+
+/*background images*/
+
+.area1 {
+  background-image: url("images/dbz3.gif");
+  background-position: center;
+}
+
+.area2 {
+  background-image: url("images/dbz1.gif");
+  background-position: center;
+}
+
+.area3 {
+  background-image: url("images/dbz2.gif");
+  background-position: center;
+}
+
+.area4 {
+  background-image: url("images/dbz4.gif");
+  background-position: center;
+}
+
+.area5 {
+  background-image: url("images/dbz5.gif");
+  background-position: center;
+}
+
+.area6 {
+  background-image: url("images/dbz6.gif");
+  background-position: center;
+}
+
+.area7 {
+  background-image: url("images/dbz7.gif");
+  background-position: center;
+}
+
+.area8 {
+  background-image: url("images/dbz8.gif");
+  background-position: center;
+}
+
+@media only screen and (max-width: 600px){
+  .card-structure {
+    display: block;
+    width: 275px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .cards-area {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  .cards-area {
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .card-structure {
+    width: 320px;
+  }
 }
