@@ -66,9 +66,7 @@ h2 {
 }
 
 .cards-area {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: inline-block;
 }
 
 .card-structure {
@@ -189,6 +187,6 @@ a {
     flex-wrap: wrap;
   }
   .card-structure {
-    width: 320px;
+    width: 310px;
   }
 }
