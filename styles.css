@@ -76,8 +76,8 @@ h2 {
   background-color: #5ca7a7;
   padding: 2px;
   margin: 9px;
-  width: 320px;
-  height: 450px;
+  width: 375px;
+  height: 500px;
   box-shadow: 4px 4px 10px gray;
 }
 
@@ -129,42 +129,42 @@ a {
 /*background images*/
 
 .area1 {
-  background-image: url("images/dbz3.gif");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/dbz3.gif");
   background-position: center;
 }
 
 .area2 {
-  background-image: url("images/dbz1.gif");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/dbz1.gif");
   background-position: center;
 }
 
 .area3 {
-  background-image: url("images/dbz2.gif");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/dbz2.gif");
   background-position: center;
 }
 
 .area4 {
-  background-image: url("images/dbz4.gif");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/dbz4.gif");
   background-position: center;
 }
 
 .area5 {
-  background-image: url("images/dbz5.gif");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/dbz5.gif");
   background-position: center;
 }
 
 .area6 {
-  background-image: url("images/dbz6.gif");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/dbz6.gif");
   background-position: center;
 }
 
 .area7 {
-  background-image: url("images/dbz7.gif");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/dbz7.gif");
   background-position: center;
 }
 
 .area8 {
-  background-image: url("images/dbz8.gif");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/dbz8.gif");
   background-position: center;
 }
 
